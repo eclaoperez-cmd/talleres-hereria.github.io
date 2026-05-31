@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Talleres Heredia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <a class="brand" href="index.html"><img src="logo 2.jpeg" alt="Logo Talleres Heredia"><span>Talleres Heredia</span></a>
+        <input type="checkbox" id="menu">
+        <label class="menu-btn" for="menu" aria-label="Abrir menu"><span></span><span></span><span></span></label>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="trabajos.html">Trabajos</a><a href="proceso.html">Proceso</a><a href="contacto.html">Contacto</a>
+        </div>
+    </nav>
+
+    <main class="section container contact page-top">
+        <div class="contact-card reveal">
+            <div>
+                <p class="eyebrow">Contacto</p>
+                <h2>Cuentanos que falla tiene tu vehiculo.</h2>
+                <p>Estamos en Cambelen. Escribenos para revisar disponibilidad y preparar una cotizacion.</p>
+                <p><strong>Telefono:</strong> 809-837-3960</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="tel" placeholder="Telefono" required>
+                <select>
+                    <option>Reparacion de motor</option>
+                    <option>Mantenimiento</option>
+                    <option>Diagnostico</option>
+                    <option>Otro servicio</option>
+                </select>
+                <textarea placeholder="Describe el problema"></textarea>
+                <button class="btn primary" type="submit">Enviar solicitud</button>
+                <p class="form-message"></p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container footer-grid"><img src="logo 2.jpeg" alt="Logo Talleres Heredia"><div><h3>Talleres Heredia</h3><p>Listos para revisar tu vehiculo.</p></div><a class="btn secondary" href="index.html">Inicio</a></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>

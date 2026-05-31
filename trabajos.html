@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajos - Talleres Heredia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <a class="brand" href="index.html"><img src="logo 2.jpeg" alt="Logo Talleres Heredia"><span>Talleres Heredia</span></a>
+        <input type="checkbox" id="menu">
+        <label class="menu-btn" for="menu" aria-label="Abrir menu"><span></span><span></span><span></span></label>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="trabajos.html">Trabajos</a><a href="proceso.html">Proceso</a><a href="contacto.html">Contacto</a>
+        </div>
+    </nav>
+
+    <main class="section container page-top">
+        <div class="section-head reveal">
+            <p class="eyebrow">Galeria</p>
+            <h2>Trabajos, herramientas y espacios del taller.</h2>
+        </div>
+
+        <div class="gallery-tabs reveal">
+            <button class="active" type="button" data-filter="todos">Todos</button>
+            <button type="button" data-filter="motor">Motor</button>
+            <button type="button" data-filter="taller">Taller</button>
+            <button type="button" data-filter="diagnostico">Diagnostico</button>
+        </div>
+
+        <div class="gallery-grid">
+            <article class="gallery-card reveal" data-category="motor"><img src="OIP (5).webp" alt="Revision de motor"><span>Revision profunda</span></article>
+            <article class="gallery-card reveal" data-category="taller"><img src="descargar (3).webp" alt="Taller de reparacion"><span>Area de trabajo</span></article>
+            <article class="gallery-card reveal" data-category="diagnostico"><img src="OIP (6).webp" alt="Diagnostico con cliente"><span>Diagnostico claro</span></article>
+            <article class="gallery-card reveal" data-category="motor"><img src="descargar (1).webp" alt="Mecanico revisando motor"><span>Ajuste de motor</span></article>
+            <article class="gallery-card reveal" data-category="taller"><img src="OIP.webp" alt="Mesa de herramientas"><span>Herramientas listas</span></article>
+            <article class="gallery-card reveal" data-category="diagnostico"><img src="OIP (4).webp" alt="Revision debajo de vehiculo"><span>Inspeccion completa</span></article>
+        </div>
+    </main>
+
+    <footer class="footer"><div class="container footer-grid"><img src="logo 2.jpeg" alt="Logo Talleres Heredia"><div><h3>Talleres Heredia</h3><p>Galeria del taller y trabajos.</p></div><a class="btn secondary" href="contacto.html">Contacto</a></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
